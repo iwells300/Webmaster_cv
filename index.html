@@ -4,12 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv online</title>
 
     
 </head>
 <body>
+    <header>
+        <h1>Maria Cristina Aroca León</h1>
+        <h2>Asistente educativa</h2>
+        <p>Asistente educativa con más de 6 años dando acompañamiento a los usuarios en la realización de trámites administrativos. Cuento con conocimientos legales para dar asesoramiento y contactar con los departamentos de vivienda y Seguridad Social.</p>
+        <hr>
+    </header>
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#educacion">Educación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#certificados">Certificados</a>
+
+    </nav>
+    <main>
+        <section id="experiencia">
+            <h3>Experiencia</h3>
+            <table class="default">
+                <tr>
+                    <td>2018-01 - 2020-06</td>
+                    <td>
+                        <h4>Asistente educativa</h4>
+                        <p>Fundación tntras, Zamora</p> 
+                        <ul>
+                            <li>
+                                Auxiliar en la atención psicopedagógica y asistencial de grupos con aproximadamente 10 niños.
+                            </li>
+                            <li>
+                                Apoyé al desarrollo de habilidades sociales, el juego infantil, autonomía personal y salud en la infancia de los niños.
+                            </li>
+                            <li>
+                                Desarrollé estrategias pedagógicas con metodologías para la resolución de problemas.
+                            </li>
+                            <li>
+                                Participé en el desarrollo de proyectos escolares.
+                            </li>
+                        </ul>   
+                    </td>
+                </tr>
+                <tr>
+                    <td>2016-07 - 2017-12</td>
+                    <td>
+                        <h4>Asistente educativa</h4>
+                        <p>Prytanis, Zamora</p> 
+                        <ul>
+                            <li>
+                                Cooperé en la creación conjunta de planes educativos, mediante la discusión y la indagación de métodos de aprendizaje.
+                            </li>
+                            <li>
+                                Programé la intervención educativa de un aula destinadaa niños y niñas de entre 7 y 12 años.
+                            </li>
+                            <li>
+                                Organicé un aula con los recursos adecuados para niños y niñas de entre 7 y 12 años.
+                            </li>
+                            <li>
+                                Ejecuté las estrategias metodológicas necesarias para desarrollar actividades con niñas y niños de primaria.
+                            </li>
+                        </ul>   
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section id="educacion">
+            <h3>Educación</h3>
+            <table class="default">
+                <tr>
+                    <td>2014 - 2016</td>
+                    <td>
+                        <h4>Master en Apoyo para la Inclusión Educativa y Social</h4>
+                        <p>UAB, Barcelona</p> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>2010 - 2014</td>
+                    <td>
+                        <h4>Grado en Pedagogía</h4>
+                        <p>uv, Valencia</p> 
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="habilidades">
+            <h3>Habilidades</h3>
+                <ul>
+                    <li>Didáctica de la educación infantil.</li>
+                    <li>Autonomía personal y salud infantil.</li>
+                    <li>Juego infantil y su metodología.</li>
+                    <li>Desarrollo cognitivo y motor.</li>
+                    <li>Desarrollo socio-afectivo.</li>
+                    <li>Habilidades sociales.</li>
+                </ul>
+        </section>
+        <section id="certificados">
+            <h3>Certificados</h3>
+                <table class="default">
+                    <tr>
+                        <td>2020</td>
+                        <td>Certificación en Enseñanza de Cursos a Distancia</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Certificaciónen Inglés para Propósitos Educativos</td>
+                    </tr>
+                </table>
+        </section>
+    </main>
+
+    <aside>
+
+        <img src="Imagenes/foto.png" alt="Maria Cristina Aroca León">
+        <h3>Perfil</h3>
+            <h4>Dirección</h4>
+            <p>Puerta Nueva, 79 <br>36130 Cerdedo</p>
+            <h4>Teléfono</h4>
+            <p>648 371 972</p>
+            <h4>E-mail</h4>
+            <a href="mailto:mariacristinaarocaleón@gmail.com">mariacristinaarocaleón@gmail.com</a>
+            <h4>Linkedin</h4>
+            <a href="http://linkedin.com/in/MariaCristinaAroca">linkedin.com/in/MariaCristinaAroca</a>
+
+        <h3>Idiomas</h3>
+            <p>
+            <label for="">Ingles</label><br>
+            <progress id="nivel ingles" max="100" value="75"></progress>
+            </p>
+            <p>
+            <label for="">Francés</label><br>
+            <progress id="nivel frances" max="100" value="50"></progress>
+            </p>
+            <p>
+            <label for="">Alemán</label><br>
+            <progress id="nivel aleman" max="100" value="25"></progress>
+            </p>    
+        <h3>Contacto</h3>
+            <form action="" method="">
+                <p>
+                <label for="nombre">Nombre y apellido:</label>
+                <input type="text" name="nombre" >                
+                </p>
+                <p>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" >                
+                </p>
+                <p>
+                <label for="msj">Mensaje:</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>                
+                </p>
+                <p>
+                <button type="submit" value="Enviar">Enviar!</button>
+                </p>
+            </form>
+                
+    </aside>
+
+    <footer>
+        <hr>
+        <ul>
+            <li>Posibilidad de incorporación inmediata.</li>
+            <li>Disponibilidad para trabajar de forma remota.</li>
+        </ul>
+        
+    </footer>
+
+    
     
 </body>
 </html>
